@@ -6,6 +6,11 @@ I use this script to complete the DVWA brute force high level challenge.
 git clone https://github.com/mrizkitriyanto/dvwa-bruteforce-script.git
 ```
 
+Change directory to dvwa-bruteforce-script
+```
+cd dvwa-bruteforce-script
+```
+
 Install the python required dependencies for this tool
 
 ```
