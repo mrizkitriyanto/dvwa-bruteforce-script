@@ -19,15 +19,21 @@ pip install -r requirements.txt
 
 # Usage
 
-using python3
+Change the url and PHPSESSID, match your url and PHPSESSID
+```
+url = 'url to target login page'
+cookie = {'security': 'high', 'PHPSESSID': 'your PHPSESSID'}
+```
 
+
+using python3
 ```
 python ./path/to/wordlist.txt "success message on page"
 ```
 
 example
 ```
-python bruteforceScript.py ~/Desktop/wordlist.txt "Welcome to the password protected area admin"
+python bruteforce.py ~/Desktop/wordlist.txt "Welcome to the password protected area admin"
 ```
 
 For the explanatio tou can visit my blog on [My Blog](https://mastoto.my.id/blog/dvwa-series-brute-force/)
