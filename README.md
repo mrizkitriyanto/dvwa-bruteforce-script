@@ -36,4 +36,4 @@ example
 python bruteforce.py ~/Desktop/wordlist.txt "Welcome to the password protected area admin"
 ```
 
-For the explanatio tou can visit my blog on [My Blog](https://mastoto.my.id/blog/dvwa-series-brute-force/)
+For the explanation you can visit my blog on [My Blog](https://mastoto.my.id/blog/dvwa-series-brute-force/)
